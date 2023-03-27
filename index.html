@@ -79,11 +79,11 @@
             <input type="text" class="form-control mb-2 mr-sm-2" id="inlineForminputAddress"
               placeholder="Digita il tuo indirizzo (Via, Città)">
 
-              <a href="#contact" style="color:#0f2147" onclick="updateFormAddress()">
-                <button class="btn mb-2">
-                  <i class="ri-arrow-right-fill"></i>
-                </button>
-              </a>
+            <a href="#contact" style="color:#0f2147" onclick="updateFormAddress()">
+              <button class="btn mb-2">
+                <i class="ri-arrow-right-fill"></i>
+              </button>
+            </a>
 
           </div>
         </div>
@@ -337,22 +337,24 @@
             <form role="form" class="php-email-form" onsubmit="doSubmit(); return false;">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="form_name" placeholder="Nome e cognome *" required>
+                  <input type="text" name="name" class="form-control" id="form_name" placeholder="Nome e cognome *"
+                    required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="form_email" placeholder="Email *" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="telefono" id="form_phone" placeholder="Telefono *" required>
+                <input type="text" class="form-control" name="telefono" id="form_phone" placeholder="Telefono *"
+                  required>
               </div>
               <div class="form-group mt-3">
                 <input type="text" class="form-control" name="indirizzo" id="form_address"
                   placeholder="Indirizzo (Via, n, Città) *" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" id="form_message" placeholder="Messaggio"
-                  required></textarea>
+                <textarea class="form-control" name="message" rows="5" id="form_message"
+                  placeholder="Messaggio"></textarea>
               </div>
               <!-- <div class="my-3">
                 <div class="loading">Loading</div>
@@ -360,6 +362,12 @@
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div> -->
               <div class="text-center">
+                <p id="noteform">Premendo INVIO dichiaro di avere letto e accettato <a
+                    href="https://fotovoltiamo.it/assets/files/Informativa%20sulla%20privacy.pdf" target="_blank">
+                    Informativa sulla Privacy </a> e <a
+                    href="https://fotovoltiamo.it/assets/files/Termini%20e%20condizioni.pdf" target="_blank">Termini e
+                    Condizioni </a>
+                </p>
                 <button class="btn-info" id="form_button" type="submit">
                   <p id="form_button_inner" class="">Invia</p>
                 </button>
@@ -405,8 +413,10 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="chi-siamo.html">Chi siamo</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contattaci</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="assets/files/Informativa sulla privacy.pdf" target="_blank">Privacy policy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="assets/files/Termini e condizioni.pdf" target="_blank">Termini e
+              <li><i class="bx bx-chevron-right"></i> <a href="assets/files/Informativa sulla privacy.pdf"
+                  target="_blank">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="assets/files/Termini e condizioni.pdf"
+                  target="_blank">Termini e
                   Condizioni</a></li>
             </ul>
           </div>
